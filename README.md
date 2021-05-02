@@ -22,7 +22,16 @@ Create Security Group with following parameters.
 |All traffic|All|All|0.0.0.0/0|-|
 
 ## EC2 Instance
-Create EC2 Instance with following parameters. Of course, you have to buy that as a spot instance.
+Create EC2 Instance with following parameters. Of course, you have to buy that as a spot instance.<br>
+If you buy EC2 Instance as a Spot Instance, your pay is discounted.
+**Spot Instance Price(2021/5/2 Tokyo Region)**
+|Instance Type|Spot Price|On demand Price|CPU|Memory|
+|---|---|---|---|---|
+|g4dn.xlarge|$0.2130|$0.71|4|16|
+|g4dn.2xlarge|$0.3045|1.015|8|32|
+
+### EC2 Instance Parameter(Not all parameter)
+
 |Parameter|Value|
 |---|---|
 |AMI|Microsoft Windows Server 2019 Base|
