@@ -31,6 +31,7 @@ If you buy EC2 Instance as a Spot Instance, your pay is discounted.
 |g4dn.2xlarge|$0.3045|$1.015|8|32|
 
 ### EC2 Instance Parameter(Not all parameter)
+I choose `g4dn.xlarge` to play Apex Legends was no problem.
 
 |Parameter|Value|
 |---|---|
