@@ -2,7 +2,7 @@
 This is the procedure of setting up Steam Gaming environment on EC2 instance for me.<br>
 Entire architechture is below.
 
-![game_on_AWS](https://user-images.githubusercontent.com/18078024/116800425-ea76b380-ab3b-11eb-845b-8ad5557df515.png)
+![game_on_AWS](https://user-images.githubusercontent.com/18078024/116800538-00d13f00-ab3d-11eb-8f60-6cd2e539ee3e.png)
 
 ## IAM Role
 Create IAM Role for EC2 Instance to download NVDIA driver from S3 bucket. So you access [IAM console](https://console.aws.amazon.com/iam/home) to create IAM Role which name is like `Game`.
