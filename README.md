@@ -13,8 +13,8 @@ Create Security Group with following parameters.
 ### Inbound rules
 |Type|Protocol|Port range|Source|Description - optional|
 |-----|-----|-----|-----|-----|
-|Custom TCP|TCP|8000 - 8010|<Your Global IP>/32|Parsec|
-|RDP|TCP|3389|<Your Global IP>/32|RDP|
+|Custom TCP|TCP|8000 - 8010|Your Global IP/32|Parsec|
+|RDP|TCP|3389|Your Global IP/32|RDP|
 
 ### Outbound rules
 |Type|Protocol|Port range|Destination|Description - optional|
